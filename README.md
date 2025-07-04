@@ -135,7 +135,7 @@ source ~/.bashrc
 
 kubectl get nodes
 ```
-![Alt text](Images\Pods_Master.png?raw=true "pods-in-masternode")
+![Alt text](Images/Pods_Master.png?raw=true "pods-in-masternode")
 
 ---
 
