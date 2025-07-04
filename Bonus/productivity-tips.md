@@ -23,5 +23,5 @@ After adding them, run:
 source ~/.bashrc
 ```
 
-![Alt text](Images/kubectl_get_nodes.png?raw=true "pods-in-masternode")
+![Alt text](/Images/kubectl_get_nodes.png?raw=true "short-nodes")
 
