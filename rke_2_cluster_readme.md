@@ -170,6 +170,18 @@ kubectl get pods -A
 You should see your control-plane and worker nodes in a `Ready` state.
 
 ---
+## Bonus Tips
+
+Label Worker Nodes
+
+To assign the role worker to your worker nodes:
+
+```bash
+kubectl label node rke2-worker-1 node-role.kubernetes.io/worker=worker
+kubectl label node rke2-worker-2 node-role.kubernetes.io/worker=worker
+```
+
+---
 
 ## Post-Installation Tips
 
