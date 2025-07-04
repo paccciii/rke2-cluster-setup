@@ -135,6 +135,8 @@ source ~/.bashrc
 
 kubectl get nodes
 ```
+- `![Alt Text](Images/Pods_Master.png)` — shows the image inline
+- Alt Text helps in accessibility and improves SEO
 
 ---
 
