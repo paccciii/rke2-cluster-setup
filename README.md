@@ -137,7 +137,6 @@ source ~/.bashrc
 
 kubectl get nodes
 ```
-![Alt text](Images/Pods_Master.png?raw=true "pods-in-masternode")
 
 ---
 
@@ -167,8 +166,14 @@ sudo journalctl -u rke2-agent -f
 
 ```bash
 kubectl get nodes
+```
+![Alt text](Images/kbuectl-get-nodes.png?raw=true "pods-in-masternode")
+
+```bash
 kubectl get pods -A
 ```
+![Alt text](Images/Pods_Master.png?raw=true "pods-in-masternode")
+
 
 You should see your control-plane and worker nodes in a `Ready` state.
 
