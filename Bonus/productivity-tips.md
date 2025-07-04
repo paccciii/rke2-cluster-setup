@@ -15,9 +15,13 @@ alias kgs='kubectl get services -A'
 alias kgn='kubectl get nodes'
 alias kaf='kubectl apply -f'
 alias kdf='kubectl describe -f'
-
+```
 
 After adding them, run:
 
 ```bash
 source ~/.bashrc
+```
+
+![Alt text](Images/kubectl_get_nodes.png?raw=true "pods-in-masternode")
+

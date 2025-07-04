@@ -149,7 +149,7 @@ curl -sfL https://get.rke2.io | INSTALL_RKE2_TYPE="agent" sh -
 
 sudo mkdir -p /etc/rancher/rke2
 sudo tee /etc/rancher/rke2/config.yaml > /dev/null <<EOF
-server: https://10.150.35.181:9345
+server: https://<ip_of_masternode>>:9345
 token: <your-secret-token>
 node-name: rke2-worker-1
 EOF
@@ -181,7 +181,7 @@ To assign the role worker to your worker nodes:
 kubectl label node rke2-worker-1 node-role.kubernetes.io/worker=worker
 kubectl label node rke2-worker-2 node-role.kubernetes.io/worker=worker
 ```
-
+![Alt text](Images/Labeling-nodes.png?raw=true "pods-in-masternode")
 ---
 
 ## Post-Installation Tips
