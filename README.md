@@ -181,7 +181,7 @@ To assign the role worker to your worker nodes:
 kubectl label node rke2-worker-1 node-role.kubernetes.io/worker=worker
 kubectl label node rke2-worker-2 node-role.kubernetes.io/worker=worker
 ```
-![Alt text](Images/Labeling-nodes.png?raw=true "pods-in-masternode")
+![Alt text](Images/Labeling-nodes.png?raw=true "labeling-nodes")
 ---
 
 ## Post-Installation Tips
