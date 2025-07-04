@@ -100,13 +100,15 @@ This guide helps you:
    sudo ufw enable
    ```
 
+![Alt text](Images/ufw-status.png?raw=true "short-nodes")
+
 9. Disable swap:
 
    ```bash
    sudo swapoff -a
    sed -i '/ swap / s/^/#/' /etc/fstab
    ```
-
+![Alt text](Images/ram-free.png?raw=true "short-nodes")
 ---
 
 ## Installing RKE2 - Master Node
